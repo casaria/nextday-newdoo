@@ -1683,7 +1683,7 @@ pre code {
   right: 41.66666667%;
 }
 .col-xs-pull-4 {
-  right: 33.33333333%;
+  right: 33.3333%;
 }
 .col-xs-pull-3 {
   right: 25%;
@@ -1761,7 +1761,7 @@ pre code {
   margin-left: 41.66666667%;
 }
 .col-xs-offset-4 {
-  margin-left: 33.33333333%;
+  margin-left: 33.3333%;
 }
 .col-xs-offset-3 {
   margin-left: 25%;
@@ -4662,7 +4662,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
+  color: #8f7b9f;
   background-color: #080808;
 }
 .navbar-inverse .navbar-nav > .disabled > a,
@@ -4683,7 +4683,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
-  border-color: #101010;
+  border-color: #8F7B9F;
 }
 .navbar-inverse .navbar-nav > .open > a,
 .navbar-inverse .navbar-nav > .open > a:hover,

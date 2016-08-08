@@ -60,6 +60,7 @@
                     <tr>
                         <th>Description</th>
                         <th class="text-right">Quantity</th>
+                        <th class="text-right">Ticket #</th>
                         <th class="text-right">Unit Price</th>
                         <th t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line">Disc.(%)</th>
                         <th class="text-right">Taxes</th>
@@ -75,6 +76,8 @@
                             <td class="text-right">
                                 <span t-field="l.product_uom_qty"/>
                                 <span groups="product.group_uom" t-field="l.product_uom"/>
+                            </td>
+                            <span t-field="l.x_ticket"/>
                             </td>
                             <td class="text-right">
                                 <span t-field="l.price_unit"/>

@@ -1031,6 +1031,7 @@ class AccountInvoiceLine(models.Model):
             return journal.default_debit_account_id.id
 
     name = fields.Text(string='Description', required=True)
+    x_ticket = fields.Text(string='x_ticket', required=False)
     origin = fields.Char(string='Source Document',
         help="Reference of the document that produced this invoice.")
     sequence = fields.Integer(default=10,

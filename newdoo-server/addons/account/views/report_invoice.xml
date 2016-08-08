@@ -59,6 +59,7 @@
                     <tr>
                         <th>Description</th>
                         <th class="hidden">Source Document</th>
+                        <th class="text-right">Ticket #</th>
                         <th class="text-right">Quantity</th>
                         <th class="text-right">Unit Price</th>
                         <th t-if="display_discount" class="text-right" groups="sale.group_discount_per_so_line">Disc.(%)</th>
@@ -71,6 +72,7 @@
                         <td><span t-field="l.name"/></td>
                         <td class="hidden"><span t-field="l.origin"/></td>
                         <td class="text-right">
+                            <span t-field="l.x_ticket"/>
                             <span t-field="l.quantity"/>
                             <span t-field="l.uom_id"  groups="product.group_uom"/>
                         </td>
