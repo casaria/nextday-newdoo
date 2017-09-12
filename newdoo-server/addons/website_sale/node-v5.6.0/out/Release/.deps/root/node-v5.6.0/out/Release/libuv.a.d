@@ -1,0 +1,1 @@
+cmd_/root/node-v5.6.0/out/Release/libuv.a := ln -f "/root/node-v5.6.0/out/Release/obj.target/deps/uv/libuv.a" "/root/node-v5.6.0/out/Release/libuv.a" 2>/dev/null || (rm -rf "/root/node-v5.6.0/out/Release/libuv.a" && cp -af "/root/node-v5.6.0/out/Release/obj.target/deps/uv/libuv.a" "/root/node-v5.6.0/out/Release/libuv.a")

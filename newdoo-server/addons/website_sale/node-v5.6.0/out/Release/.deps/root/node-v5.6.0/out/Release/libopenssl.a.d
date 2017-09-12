@@ -1,0 +1,1 @@
+cmd_/root/node-v5.6.0/out/Release/libopenssl.a := ln -f "/root/node-v5.6.0/out/Release/obj.target/deps/openssl/libopenssl.a" "/root/node-v5.6.0/out/Release/libopenssl.a" 2>/dev/null || (rm -rf "/root/node-v5.6.0/out/Release/libopenssl.a" && cp -af "/root/node-v5.6.0/out/Release/obj.target/deps/openssl/libopenssl.a" "/root/node-v5.6.0/out/Release/libopenssl.a")

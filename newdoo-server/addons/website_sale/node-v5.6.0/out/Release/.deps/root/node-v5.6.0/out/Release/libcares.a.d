@@ -1,0 +1,1 @@
+cmd_/root/node-v5.6.0/out/Release/libcares.a := ln -f "/root/node-v5.6.0/out/Release/obj.target/deps/cares/libcares.a" "/root/node-v5.6.0/out/Release/libcares.a" 2>/dev/null || (rm -rf "/root/node-v5.6.0/out/Release/libcares.a" && cp -af "/root/node-v5.6.0/out/Release/obj.target/deps/cares/libcares.a" "/root/node-v5.6.0/out/Release/libcares.a")
